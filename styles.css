@@ -1,0 +1,110 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca','Big Shoulders Display';
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
+.card {
+    width: 280px;
+    height: auto;
+    
+
+}
+.icon{
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.card-title{
+    font-family: 'Big Shoulders Display';
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.card-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 1.6;
+}
+.card-btn {
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.orange-bg{
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan-bg{
+    background-color: hsl(184, 100%, 22%);
+}
+.darkcyan-bg{
+    background-color: hsl(179, 100%, 13%);
+}
+.orange-c{
+    color: hsl(31, 77%, 52%);;
+}
+.cyan-c{
+ color: hsl(184, 100%, 22%);
+}
+.darkcyan-c{
+   color: hsl(179, 100%, 13%);
+}
+.left-radius{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right-radius{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 375px) {
+    .container {
+       flex-wrap: wrap;
+    }
+    .left-radius{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .right-radius{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .card-text{
+       margin-bottom: 15px;
+    }
+    .card-btn {
+        
+        margin-bottom: 30px;
+    }
+    .top-radius{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .bottom-radius{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
